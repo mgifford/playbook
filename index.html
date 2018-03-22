@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Boston Smart City Playbook — from the Mayor's Office of New Urban Mechanics</title>
+  <title>Ottawa Smart City Playbook [Community Edition] — forked from the Mayor's Office of New Urban Mechanics</title>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,700|Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
@@ -19,7 +19,7 @@
    <div class="outer_container">
     <div class="inner_container">
 
-      <a href="#introduction"><h3>Boston Smart City Playbook</h3></a>
+      <a href="#introduction"><h3>Ottawa Smart City Playbook [Community Edition]</h3></a>
       <ul class="nav">
         {% for play in site.plays %}
           <li class="play_square"><a href="#play{{ play.play_number }}" title="View Play {{ play.play_number }}: {{ play.title }}">{{ play.play_number }}</a></li>
@@ -35,7 +35,7 @@
 <div id="introduction">
   <div class="outer_container">
     <div class="inner_container">
-      <a id="bos_logo" href="https://www.boston.gov" title="Link to the City of Boston"><img src='{{site.baseurl}}/assets/images/b-logo-light.svg' alt="Logo of the City of Boston"></a>
+      <a id="bos_logo" href="https://www.ottawa.ca" title="Link to the City of Ottawa"><img src='{{site.baseurl}}/assets/images/b-logo-light.svg' alt="Logo of the City of Boston"></a>
       {% capture introduction %}{% include introduction.md %}{% endcapture %}
       {{ introduction | markdownify }}
       <div class="button">
