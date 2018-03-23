@@ -1,6 +1,6 @@
 ## About This Project
 
-The American people expect to interact with government through digital channels such as websites, email, and mobile applications. By building better digital services that meet the needs of the people that use our services, we can make the delivery of our policy and programs more effective.
+The citizens expect to interact with government through digital channels such as websites, email, and mobile applications. By building better digital services that meet the needs of the people that use our services, we can make the delivery of our policy and programs more effective.
 
 One way to advance smarter digital service delivery is by putting the right processes and practices in place to drive outcomes and accountability and allow people and companies to do their best work.  The Digital Services Playbook and the TechFAR Handbook document these best practices and processes: 
 
@@ -37,6 +37,4 @@ To run the site locally, run `jekyll serve --watch`, then visit `http://localhos
 This project uses [Sass](http://sass-lang.com/ "Link to Learn More About Sass") for managing its style sheets. These styles are defined in the [`styles.scss` file](assets/_sass/styles.scss). We use [Jekyll's native SASS support](http://jekyllrb.com/docs/assets/) to auto-generate the required CSS when you run the site locally, as described above.
 
 ## License
-As a work of the United States Government, this project is in the public domain within the United States.
-
-Additionally, we waive copyright and related rights in the work worldwide through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+This work is licensed under the Creative Commons [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
